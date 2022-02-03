@@ -3,7 +3,9 @@ body {
   padding: 0;
   margin: 0;
 }
-
+html {
+  scroll-behavior: smooth;
+}
 nav {
   background-color: #111;
   color: white;
@@ -221,9 +223,8 @@ nav {
 }
 
 .color:last-child {
-  color: darkblue;
+  background-color: darkblue;
 }
-
 .size {
   padding: 5px 20px;
   border: 1px solid black;
